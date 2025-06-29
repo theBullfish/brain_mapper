@@ -1,0 +1,51 @@
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  snippets  Snippet[]
+  createdAt DateTime @default(now())
+}
+
+model Snippet {
+  id             String   @id @default(cuid())
+  user           User     @relation(fields: [userId], references: [id])
+  userId         String
+  rawText        String
+  createdAt      DateTime @default(now())
+  salience       Float
+  recursionDepth Int
+  linkDensity    Int
+  divergence     Float
+  emotion        String
+  valence        Float
+  embedding      Float[]  @db.Vector(384)
+  linksFrom      Link[]   @relation("FromLink")
+  linksTo        Link[]   @relation("ToLink")
+}
+
+model Link {
+  id       String  @id @default(cuid())
+  from     Snippet @relation("FromLink", fields: [fromId], references: [id])
+  fromId   String
+  to       Snippet @relation("ToLink", fields: [toId], references: [id])
+  toId     String
+  weight   Float
+  reason   String
+}
+
+model GovernorVersion {
+  id        String   @id @default(cuid())
+  user      User?    @relation(fields: [userId], references: [id])
+  userId    String?
+  yamlBlob  String
+  createdAt DateTime @default(now())
+}

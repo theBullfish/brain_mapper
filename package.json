@@ -1,0 +1,16 @@
+{
+  "name": "bear-poking",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter @bear-poking/web dev\" \"pnpm --filter @bear-poking/api dev\"",
+    "build": "pnpm --parallel --filter ./apps/* build",
+    "lint": "echo 'add linter later'"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
