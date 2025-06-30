@@ -1,1 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 403 403" width="64" height="64">
+	<title>Master2</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-251.49,65.926,0,-114.601,369.7)">
+			<stop offset="0" stop-color="#c835f8"/>
+			<stop offset="1" stop-color="#fb4faf"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(200.402,0,0,166.943,175.657,119.057)">
+			<stop offset="0" stop-color="#fb4faf"/>
+			<stop offset="1" stop-color="#f9d92e"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(162.29,-109.718,77.646,114.851,58.719,164.202)">
+			<stop offset="0" stop-color="#9027e2"/>
+			<stop offset="1" stop-color="#f98afe"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-212,191.044,0,29.33,297.468)">
+			<stop offset="0" stop-color="#15b0f8"/>
+			<stop offset="1" stop-color="#c835f8"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,165.972,-196.958,0,154.879,259.98)">
+			<stop offset="0" stop-color="#15b0f8"/>
+			<stop offset="1" stop-color="#c835f8"/>
+		</linearGradient>
+		<linearGradient id="g6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-86.093,39.607,0,183.723,302.038)">
+			<stop offset="0" stop-color="#fb4faf"/>
+			<stop offset="1" stop-color="#da3c78"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { opacity: .45;fill: #000000 } 
+		.s1 { opacity: .5;fill: #000000 } 
+		.s2 { opacity: .15;fill: #000000 } 
+		.s3 { fill: #1c2a39 } 
+		.s4 { fill: url(#g1) } 
+		.s5 { fill: url(#g2) } 
+		.s6 { fill: url(#g3) } 
+		.s7 { opacity: .2;fill: #01052d } 
+		.s8 { fill: url(#g4) } 
+		.s9 { fill: url(#g5) } 
+		.s10 { fill: url(#g6) } 
+		.s11 { opacity: .2;fill: #8a0028 } 
+		.t12 { font-size: 1px;fill: #1c2a39;font-weight: bold;font-family: "Square721 BT" } 
+		.t13 { font-size: 1px;fill: #1c2a39;font-weight: bold;font-family: "Arial" } 
+	</style>
+	<g id="_Artboards_">
+	</g>
+	<g id="Background">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m223.2 592.2c0.1 0.1 0.2 0.1 0.4 0.1 1.1 0 1.8-0.7 1.8-2.2 0-1.3-0.7-1.9-1.7-1.9q-0.3 0-0.5 0z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m220.2 589.1c0-0.6-0.4-0.9-1-0.9q-0.4 0-0.5 0v1.9q0.1 0 0.4 0c0.7 0 1.1-0.4 1.1-1z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m232.9 586.8v6.8c0 0.5-0.4 0.8-0.8 0.8h-0.9v3.3c0 0.3-0.2 0.5-0.5 0.5h-13.4c-0.3 0-0.5-0.2-0.5-0.5v-3.3h-0.8c-0.5 0-0.8-0.3-0.8-0.8v-6.8c0-0.4 0.3-0.8 0.8-0.8h0.8v-6.8c0-0.3 0.2-0.5 0.5-0.5h8.5 0.1l0.1 0.1h0.1l4.9 5h0.1v0.1 0.1h0.1v0.1 1.9h0.9c0.4 0 0.8 0.4 0.8 0.8zm-15.2-0.8h12.6v-1.5h-4.5c-0.2 0-0.4-0.2-0.4-0.4v-4.5h-7.7zm7.9 1.8c-0.4-0.3-1.1-0.6-2-0.6-0.6 0-1.1 0.1-1.5 0.2v5.6q0.4 0.1 1.2 0.1c1 0 1.8-0.2 2.3-0.7 0.5-0.4 0.9-1.1 0.9-2.4 0-1-0.3-1.7-0.9-2.2zm-8 5.2h1.1v-2.1q0.2 0 0.4 0c0.8 0 2.2-0.3 2.2-1.9 0-0.5-0.2-1-0.6-1.3q-0.5-0.5-1.6-0.5-1 0.1-1.5 0.2zm12.7 1.3h-12.6v2.9h12.6zm0.1-7.1h-3v5.7h1.1v-2.4h1.8v-0.9h-1.8v-1.5h1.9z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m208 586.8v6.8c0 0.5-0.4 0.8-0.8 0.8h-0.9v3.3c0 0.3-0.2 0.5-0.4 0.5h-13.5c-0.2 0-0.4-0.2-0.4-0.5v-3.3h-0.9c-0.5 0-0.8-0.3-0.8-0.8v-6.8c0-0.4 0.3-0.8 0.8-0.8h0.9v-6.8c0-0.3 0.2-0.5 0.4-0.5h8.6 0.1v0.1h0.1l5 5v0.1h0.1v0.1 2h0.9c0.4 0 0.8 0.4 0.8 0.8zm-2.6 7.6h-12.6v2.9h12.6zm-11-4.7v-1.4h2v-0.9h-3.1v5.7h3.2v-1h-2.1v-1.5h1.9v-0.9zm4 3.4v-2.2q0.1 0.1 0.4 0.1c0.8 0 2.1-0.4 2.1-2 0-0.5-0.2-0.9-0.5-1.2q-0.6-0.5-1.6-0.5-1 0-1.5 0.1v5.7zm5.5-1.6c0 0.4-0.4 0.7-1 0.7-0.4 0-0.9-0.1-1.2-0.3l-0.2 0.9c0.3 0.2 0.8 0.3 1.4 0.3 1.3 0 2.1-0.7 2.1-1.7 0-0.7-0.4-1.3-1.4-1.7-0.7-0.3-0.9-0.5-0.9-0.9 0-0.3 0.2-0.6 0.8-0.6 0.5 0 0.8 0.1 1 0.2l0.2-0.9c-0.2-0.1-0.6-0.2-1.2-0.2-1.2 0-1.9 0.7-1.9 1.6 0 0.8 0.5 1.3 1.4 1.7 0.6 0.2 0.9 0.5 0.9 0.9zm1.5-7h-4.5c-0.2 0-0.4-0.2-0.4-0.4v-4.5h-7.7v6.4h12.6z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m199.9 589.1c0-0.6-0.4-0.9-1-0.9q-0.3 0-0.5 0v1.9q0.2 0 0.4 0c0.7 0 1.1-0.4 1.1-1z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m177.2 586c0.8 0 1.3-0.6 1.3-1.3 0-0.8-0.5-1.4-1.3-1.4-0.8 0-1.4 0.6-1.4 1.4 0 0.7 0.6 1.3 1.4 1.3z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m176 593.5h2.3v-6.6h-2.3z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m168 593.5h-2.4l3.4-10.2h2.6l3.4 10.2h-2.4l-0.6-1.8h-3.5zm1.2-3.7h2.3l-1.2-3.7z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m181.8 579.2v18.5c0 0.3-0.2 0.5-0.5 0.5h-18.5c-0.3 0-0.5-0.2-0.5-0.5v-18.5c0-0.3 0.2-0.5 0.5-0.5h18.5c0.3 0 0.5 0.2 0.5 0.5zm-0.9 0.4h-17.7v17.7h17.7z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m176.4 555.3c0 2.8-2.1 4.7-5.1 4.7h-4.1v-9.3h4.1c3 0 5.1 1.8 5.1 4.6zm-1.8 0c0-1.9-1.3-3.2-3.4-3.2h-2.2v6.4h2.2c2.1 0 3.4-1.2 3.4-3.2z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m110.4 555.9c0 1.9-0.9 2.7-2.4 2.7-1.5 0-2.3-0.8-2.3-2.7v-5.2h-1.7v5.2c0 2.7 1.5 4.2 4 4.2 2.6 0 4.1-1.5 4.1-4.2v-5.2h-1.7z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m181.5 560h1.7v-9.3h-1.7z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m119.5 550.7h-1.7v9.3h6.6v-1.5h-4.9z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m92.3 560h1.7v-3.6h4.5v-1.4h-4.5v-2.9h5.1v-1.4h-6.8z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m130.8 550.7h-1.8v9.3h6.6v-1.5h-4.8z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m142.5 555.2l-2.7-4.5h-1.8l3.6 6v3.3h1.7v-3.3l3.7-6h-1.7z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m156.8 556h4.5v-1.5h-4.5v-2.4h5v-1.4h-6.7v9.3h6.9v-1.5h-5.2z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m228.2 550.7h-1.7v9.3h6.6v-1.5h-4.9z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m285.8 556h4.5v-1.5h-4.5v-2.4h5.1v-1.4h-6.8v9.3h7v-1.5h-5.3z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m265.3 560h1.7v-9.3h-1.7z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m274.6 550.7h-1.8v9.3h6.6v-1.5h-4.8z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m297.4 553.2c0-0.7 0.6-1.2 2-1.2 0.8 0 1.7 0.2 2.6 0.7l0.5-1.3c-0.8-0.6-2-0.8-3.1-0.8-2.5 0-3.7 1.2-3.7 2.7 0 3.5 5.5 2.2 5.5 4.2 0 0.7-0.6 1.2-2 1.2-1.2 0-2.4-0.5-3.1-1.1l-0.6 1.4c0.8 0.7 2.2 1.1 3.7 1.1 2.5 0 3.7-1.3 3.7-2.8 0-3.4-5.5-2.1-5.5-4.1z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m239.4 556h4.5v-1.5h-4.5v-2.4h5.1v-1.4h-6.8v9.3h7v-1.5h-5.3z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m253.6 560h1.7v-3.6h4.5v-1.4h-4.5v-2.9h5v-1.4h-6.7z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m204.4 550.7l4.2 9.3h-1.8l-0.9-2.2h-4.7l-0.9 2.2h-1.8l4.2-9.3zm0.9 5.8l-1.8-4.1-1.7 4.1z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m221.3 557.4c0 1.6-1.2 2.6-3.6 2.6h-4.6v-9.3h4.3c2.3 0 3.5 0.9 3.5 2.4 0 1-0.5 1.7-1.2 2 1 0.4 1.6 1.1 1.6 2.3zm-6.5-2.8h2.4c1.2 0 1.9-0.4 1.9-1.3 0-0.8-0.7-1.3-1.9-1.3h-2.4zm4.8 2.7c0-0.9-0.7-1.3-2-1.3h-2.8v2.7h2.8c1.3 0 2-0.5 2-1.4z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m187.8 552.1h3.1v7.9h1.7v-7.9h3.1v-1.4h-7.9z"/>
+		</g>
+	</g>
+	<g id="Icon">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m362.2 307.2c0-5.6-78.2-10.1-174.6-10.1-96.4 0-174.6 4.5-174.6 10.1 0 5.5 78.2 10 174.6 10 96.4 0 174.6-4.5 174.6-10z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m330.9 125.3c-0.9 0-1.8 0.2-2.5 0.6l-16.2 7.8-54.1-26.5h-0.1-0.1v-0.1h-0.1-0.1l-0.1-0.1q-0.4-0.1-0.8-0.2h-0.1-0.1-0.1-0.1-0.2q-0.8-0.1-1.6 0.2h-0.1-0.1l-56.1 20.1q-0.5 0.1-0.9 0.3l-112.2 40.3c-1.4 0.5-2.4 1.5-2.9 2.8l-47.9 130.3c-0.9 2.4 0.3 5.2 2.8 6.1q0.8 0.3 1.6 0.3h34.8c1.7 0 3.2-0.9 4.1-2.2l30.2-41.1 24.2 40.7c0.8 1.5 2.3 2.6 4.2 2.6h31.2v-0.1q0.6 0 1.2-0.1c2.5-0.7 4-3.2 3.4-5.8l-10.8-41.2h33.4v42.4c0 2.6 2.1 4.8 4.7 4.8h25.2v-0.1c2 0 3.8-1.2 4.5-3.1l15.5-42.8 15.6 42.8c0.7 1.9 2.5 3.1 4.4 3.1v0.1h25.2c2.6 0 4.8-2.2 4.8-4.8v-81.7h68.1c2 0 3.7-1.2 4.4-2.9l14.5-26.2c1.2-2.1 0.6-4.7-1.3-6.1l-24.5-18.5v-9c0-2.1-1.2-3.8-3-4.5l-17.2-8.4v-15.1c0-2.6-2.1-4.7-4.7-4.7z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m251.2 118.2l-47 16.9v120.2 42.4h17.1l29.9-82.5z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m314.3 143.2c-1.4 0.7-2.9 0.6-4.2 0l-49.4-24.1v92.1h29.1 70.2l11.4-20.6-23.2-17.5c-1.2-0.9-1.9-2.3-1.9-3.8v-8.4l-17.5-8.6c-1.7-0.8-2.7-2.5-2.7-4.2v-10.6z"/>
+			<path id="&lt;Path&gt;" class="s6" d="m194.7 146.2l-76.9 104.3h76.9z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m194.7 212l-76.9 38.5h76.9z"/>
+			<path id="&lt;Path&gt;" class="s8" d="m104.8 252.2l81.6-110.8-95.9 34.4-44.9 121.9h25.7l33.1-45q0.1-0.2 0.4-0.5z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m104.8 252.2l81.6-110.8-48 17.2-92.8 139.1h25.7l33.1-45q0.1-0.2 0.4-0.5z"/>
+			<path id="&lt;Path&gt;" class="s9" d="m151.5 260h-34.8l22.3 37.7h22.4z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m116.7 260l44.7 37.7-9.9-37.7z"/>
+			<path id="&lt;Path&gt;" class="s10" d="m285.1 220.7h-25.8l-9.6 26.6 18.2 50.4h17.2z"/>
+			<path id="&lt;Path&gt;" class="s11" d="m259.3 220.7l-9.6 26.6 18.2 50.4 17.2-77z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m117.8 250.5h16.4l60.5-104.3z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m194.7 146.2l-11 104.3h11z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m204.2 135.1v162.6h17.1l16.9-46.5z"/>
+			<path id="&lt;Path&gt;" class="s11" d="m260.7 169.7v41.5h99.3l5.7-10.3z"/>
+			<path id="&lt;Path&gt;" class="s11" d="m260.7 211.2h11.6l-11.6-92.1z"/>
+		</g>
+	</g>
+	<g id="Logotext">
+		<g id="&lt;Group&gt;">
+			<text id="102105101122115105104111101" style="transform: matrix(2,0,0,2,12.002,383.898)" >
+				<tspan x="0" y="0" class="t12">102105101122115105104111101
+</tspan>
+			</text>
+		</g>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<text id="123114117107101116040107117105123040110105122105" style="transform: matrix(2,0,0,2,53.618,408.598)" >
+					<tspan x="0" y="0" class="t13">123114117107101116040107117105123040110105122105
+</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
