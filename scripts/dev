@@ -1,0 +1,4 @@
+#!/bin/bash
+pnpm i
+pnpm exec prisma migrate dev
+pnpm dev
