@@ -25,3 +25,9 @@ export default function ControlEnergyTask() {
     </div>
   )
 }
+
+import { useMockBle } from '@/lib/useMockBle';
+export default function Control() {
+  useMockBle('parent');
+  return <>BLE mock streaming…</>;
+}
