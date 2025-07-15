@@ -2,4 +2,4 @@
 docker compose -f docker-compose.postgres.yml up -d
 pnpm install
 pnpm exec prisma migrate dev
-pnpm --filter @bear-poking/web dev
+pnpm --filter @brain-mapper/web dev
