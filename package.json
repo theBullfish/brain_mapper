@@ -11,6 +11,11 @@
     "lint": "echo 'add linter later'"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "@prisma/client": "6.11.1",
+    "concurrently": "^8.2.0",
+    "prisma": "^6.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
   }
 }
