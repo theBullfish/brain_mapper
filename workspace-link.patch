@@ -1,0 +1,42 @@
+
+diff --git a/package.json b/package.json
+@@
+   "workspaces": [
+     "apps/*",
+     "packages/*"
+   ],
++  "dependencies": {
++    "@bear-poking/db": "workspace:*"
++  },
+
+   "devDependencies": {
+diff --git a/apps/web/package.json b/apps/web/package.json
+@@
+   "name": "@bear-poking/web",
+   "private": true,
+   "version": "1.0.0",
++  "dependencies": {
++    "@bear-poking/db": "workspace:*"
++  },
+   "devDependencies": {
+diff --git a/apps/api/package.json b/apps/api/package.json
+new file mode 100644
+--- /dev/null
++++ b/apps/api/package.json
+@@
++{
++  "name": "@bear-poking/api",
++  "private": true,
++  "version": "1.0.0",
++  "dependencies": {
++    "@bear-poking/db": "workspace:*"
++  }
++}
+diff --git a/tsconfig.json b/tsconfig.json
+@@
+   "compilerOptions": {
+     "baseUrl": ".",
++    "paths": {
++      "@bear-poking/db": ["packages/db/src/index.ts"]
++    },
+     "moduleResolution": "node",
