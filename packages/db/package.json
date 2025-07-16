@@ -2,7 +2,7 @@
   "name": "@bear-poking/db",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
     "prisma:migrate": "prisma migrate dev --schema=prisma/schema.prisma",
     "prisma:generate": "prisma generate --schema=prisma/schema.prisma",
