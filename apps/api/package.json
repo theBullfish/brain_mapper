@@ -1,1 +1,8 @@
-{}
+{
+  "name": "@bear-poking/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+   "dev": "uvicorn --host 0.0.0.0 --app-dir ../.. backend.app:app --reload --port 8000 --reload-dir ../../backend"
+  }
+}

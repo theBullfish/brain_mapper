@@ -1,0 +1,16 @@
+- id: 1
+  source_bucket: autobiographical
+  construct: control_energy
+  format: SCALE_1_5
+  prompt: "Rate how much control you feel over your thoughts right now."
+  follow_up: "Why that number?"
+  age_range: adult
+  personality_tags: "ADHD"
+  allow_bonus: true
+- id: 2
+  source_bucket: reflex_emotion
+  construct: abnormal_BEN
+  format: TEXT
+  prompt: "Describe in 10 words how your body feels at this moment."
+  follow_up: null
+  allow_bonus: false

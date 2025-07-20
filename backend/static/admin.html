@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Brain Mapper Admin</title>
+  <style>
+    body { font-family: monospace; margin: 2em; background: #10131a; color: #b1ecff; }
+    h1 { font-size: 2em; }
+    #features { margin-top: 1em; }
+    table { border-collapse: collapse; background: #202531; color: #fff; }
+    th, td { border: 1px solid #444; padding: 0.5em 1em; }
+    th { background: #163d53; }
+    tr:nth-child(even) { background: #23283b; }
+    .ts { color: #7fc1ff; }
+    .err { color: #ff6666; }
+  </style>
+</head>
+<body>
+  <h1>Brain Mapper Admin</h1>
+  <div id="features"></div>
+  <script>
+    const url = (location.protocol === 'https:' ? 'wss:' : 'ws:') + '//' + location.host + '/ws/features';
+    const s = new WebSocket(url);
+    const featuresDiv = document.getElementById('features');
+    s.onmessage = e => {
+      try {
+        const data = JSON.parse(e.data);
+        featuresDiv.innerHTML = render(data);
+      } catch (err) {
+        featuresDiv.innerHTML = `<span class="err">Error parsing data: ${e.data}</span>`;
+      }
+    };
+
+    function render(obj) {
+      if (typeof obj !== "object") return `<pre>${obj}</pre>`;
+      return `<table>
+        ${Object.entries(obj).map(([k, v]) =>
+          `<tr><th>${k}</th><td>${Array.isArray(v) ? `[${v.join(', ')}]` : v}</td></tr>`
+        ).join('')}
+      </table>`;
+    }
+  </script>
+</body>
+</html>

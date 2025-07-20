@@ -1,0 +1,7 @@
+<!doctype html><title>Feature Stream</title>
+<style>body{font-family:monospace;background:#111;color:#0f0}li{margin:0}</style>
+<h3>/ws/features</h3><ul id=log></ul><script>
+const log=document.getElementById('log');
+const ws=new WebSocket("wss://potential-space-pancake-4j7gv9qj5gxgcv6x-8000.app.github.dev/ws/features");
+ws.onmessage=e=>{const li=document.createElement('li');li.textContent=e.data;log.prepend(li);if(log.children.length>100)log.lastChild.remove()};
+</script>
